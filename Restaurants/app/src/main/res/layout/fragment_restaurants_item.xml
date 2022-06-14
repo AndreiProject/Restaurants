@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/restaurants_item_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/fragment_restaurants_item_margin_start"
+    android:layout_marginTop="@dimen/fragment_restaurants_item_margin_top"
+    android:layout_marginEnd="@dimen/fragment_restaurants_item_margin_end"
+    android:background="@drawable/hits_item_rounded_bg">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.30" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/fragment_restaurants_item_logo_margin"
+        android:background="@drawable/hits_item_rounded_bg"
+        android:padding="@dimen/fragment_restaurants_item_logo_padding"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/ic_stub" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fragment_restaurants_item_name_margin"
+        android:textColor="@color/black"
+        android:textSize="@dimen/fragment_restaurants_item_name_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Суши рай" />
+
+    <TextView
+        android:id="@+id/specializations"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/fragment_restaurants_item_specializations_margin_start"
+        android:layout_marginTop="@dimen/fragment_restaurants_item_specializations_margin_top"
+        android:layout_marginEnd="@dimen/fragment_restaurants_item_specializations_margin_end"
+        android:textColor="@color/black"
+        android:textSize="@dimen/fragment_restaurants_item_specializations_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/name"
+        tools:text="Пица / Суши / Бургеры" />
+
+    <ImageView
+        android:id="@+id/like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/fragment_restaurants_item_like_margin"
+        android:src="@drawable/ic_like"
+        app:layout_constraintBottom_toBottomOf="@+id/positive_reviews"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/positive_reviews" />
+
+    <TextView
+        android:id="@+id/positive_reviews"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/fragment_restaurants_item_positive_reviews_margin_start"
+        android:layout_marginTop="@dimen/fragment_restaurants_item_positive_reviews_margin_top"
+        android:layout_marginEnd="@dimen/fragment_restaurants_item_positive_reviews_margin_end"
+        android:layout_marginBottom="@dimen/fragment_restaurants_item_positive_reviews_margin_bottom"
+        android:textColor="@color/black"
+        android:textSize="@dimen/fragment_restaurants_item_positive_reviews_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/like"
+        app:layout_constraintTop_toBottomOf="@id/specializations"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="98%" />
+</androidx.constraintlayout.widget.ConstraintLayout>

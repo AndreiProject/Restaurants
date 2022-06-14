@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/restaurantsFragment">
+    <fragment
+        android:id="@+id/restaurantsFragment"
+        android:name="com.paramonov.restaurants.restaurants.RestaurantsFragment"
+        android:label="fragment_restaurants"
+        tools:layout="@layout/fragment_restaurants" />
+    <fragment
+        android:id="@+id/hitsFragment"
+        android:name="com.paramonov.restaurants.hits.HitsFragment"
+        android:label="fragment_hits"
+        tools:layout="@layout/fragment_hits" />
+    <fragment
+        android:id="@+id/reviewsFragment"
+        android:name="com.paramonov.restaurants.reviews.ReviewsFragment"
+        android:label="fragment_reviews"
+        tools:layout="@layout/fragment_reviews" />
+</navigation>

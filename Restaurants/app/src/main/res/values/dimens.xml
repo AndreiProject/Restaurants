@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- fragment_hits-->
+    <dimen name="fragment_hits_rw_padding">20dp</dimen>
+
+    <!-- fragment_hits_item-->
+    <dimen name="fragment_hits_item_margin">20dp</dimen>
+    <dimen name="fragment_hits_item_image_margin_start">70dp</dimen>
+    <dimen name="fragment_hits_item_image_margin_top">10dp</dimen>
+    <dimen name="fragment_hits_item_image_margin_end">70dp</dimen>
+    <dimen name="fragment_hits_item_image_padding">2dp</dimen>
+    <dimen name="fragment_hits_item_product_name_margin_top">10dp</dimen>
+    <dimen name="fragment_hits_item_product_name_text_size">22sp</dimen>
+    <dimen name="fragment_hits_item_description_margin_start">60dp</dimen>
+    <dimen name="fragment_hits_item_description_margin_top">8dp</dimen>
+    <dimen name="fragment_hits_item_description_margin_end">60dp</dimen>
+    <dimen name="fragment_hits_item_description_margin_bottom">15dp</dimen>
+    <dimen name="fragment_hits_item_description_text_size">18sp</dimen>
+
+    <!--  fragment_restaurants-->
+    <dimen name="fragment_restaurants_rw">10dp</dimen>
+
+    <!--  fragment_restaurants_item-->
+    <dimen name="fragment_restaurants_item_margin_start">5dp</dimen>
+    <dimen name="fragment_restaurants_item_margin_top">10dp</dimen>
+    <dimen name="fragment_restaurants_item_margin_end">5dp</dimen>
+    <dimen name="fragment_restaurants_item_logo_margin">10dp</dimen>
+    <dimen name="fragment_restaurants_item_logo_padding">2dp</dimen>
+    <dimen name="fragment_restaurants_item_name_margin">10dp</dimen>
+    <dimen name="fragment_restaurants_item_name_text_size">18sp</dimen>
+    <dimen name="fragment_restaurants_item_specializations_margin_start">10dp</dimen>
+    <dimen name="fragment_restaurants_item_specializations_margin_top">5dp</dimen>
+    <dimen name="fragment_restaurants_item_specializations_margin_end">10dp</dimen>
+    <dimen name="fragment_restaurants_item_specializations_text_size">17sp</dimen>
+    <dimen name="fragment_restaurants_item_like_margin">10dp</dimen>
+    <dimen name="fragment_restaurants_item_positive_reviews_margin_start">5dp</dimen>
+    <dimen name="fragment_restaurants_item_positive_reviews_margin_top">5dp</dimen>
+    <dimen name="fragment_restaurants_item_positive_reviews_margin_end">10dp</dimen>
+    <dimen name="fragment_restaurants_item_positive_reviews_margin_bottom">10dp</dimen>
+    <dimen name="fragment_restaurants_item_positive_reviews_text_size">18sp</dimen>
+
+    <!-- fragment_reviews-->
+    <dimen name="fragment_reviews_rw_padding">10dp</dimen>
+
+    <!-- fragment_reviews_item-->
+    <dimen name="fragment_reviews_item_margin">10dp</dimen>
+    <dimen name="fragment_reviews_item_is_positive_margin">10dp</dimen>
+    <dimen name="fragment_reviews_item_title_text_size">17sp</dimen>
+    <dimen name="fragment_reviews_item_title_margin">10dp</dimen>
+    <dimen name="fragment_reviews_item_message_margin_start">15dp</dimen>
+    <dimen name="fragment_reviews_item_message_margin_top">10dp</dimen>
+    <dimen name="fragment_reviews_item_message_margin_end">15dp</dimen>
+    <dimen name="fragment_reviews_item_message_text_size">17sp</dimen>
+    <dimen name="fragment_reviews_item_data_margin_start">15dp</dimen>
+    <dimen name="fragment_reviews_item_data_margin_top">10dp</dimen>
+    <dimen name="fragment_reviews_item_data_margin_end">15dp</dimen>
+    <dimen name="fragment_reviews_item_data_margin_bottom">10dp</dimen>
+    <dimen name="fragment_reviews_item_data_text_size">15sp</dimen>
+</resources>
